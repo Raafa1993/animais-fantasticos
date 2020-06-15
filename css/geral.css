@@ -119,6 +119,7 @@ body, h1, h2, ul, li, p, dd, dt, dl {
   
   .animais-descricao {
     grid-column: 3;
+    
   }
   
   .animais-descricao section {
@@ -126,7 +127,8 @@ body, h1, h2, ul, li, p, dd, dt, dl {
   }
   
   .faq-lista {
-    grid-column: 2 / 4
+    grid-column: 2 / 4;
+    cursor: pointer;
   }
   
   .faq-lista dt {
